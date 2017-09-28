@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E2F92B11F6DC19400B1AD63 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F92B01F6DC19400B1AD63 /* DelegateViewController.swift */; };
+		9E2F92B31F6DC1A200B1AD63 /* DataSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F92B21F6DC1A200B1AD63 /* DataSourceViewController.swift */; };
+		9E2F92B51F6DC97D00B1AD63 /* DataSourceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F92B41F6DC97D00B1AD63 /* DataSourceTableViewCell.swift */; };
+		9E2F92B71F6DD8B300B1AD63 /* DelegateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F92B61F6DD8B300B1AD63 /* DelegateTableViewCell.swift */; };
+		9E2F92BF1F735E5000B1AD63 /* DescriptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F92BE1F735E5000B1AD63 /* DescriptionTextView.swift */; };
+		9E2F92CA1F736DEF00B1AD63 /* ARBasicWebkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F92C91F736DEF00B1AD63 /* ARBasicWebkitViewController.swift */; };
+		9E3A2DF91EE499DF0064379B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A2DF81EE499DF0064379B /* AppDelegate.swift */; };
+		9E3A2DFB1EE499DF0064379B /* FontsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A2DFA1EE499DF0064379B /* FontsCollectionViewController.swift */; };
+		9E3A2DFE1EE499E00064379B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3A2DFC1EE499E00064379B /* Main.storyboard */; };
+		9E3A2E001EE499E00064379B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3A2DFF1EE499E00064379B /* Assets.xcassets */; };
+		9E3A2E031EE499E00064379B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3A2E011EE499E00064379B /* LaunchScreen.storyboard */; };
+		9E3A2E0E1EE499E00064379B /* SwiftyFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A2E0D1EE499E00064379B /* SwiftyFontTests.swift */; };
+		9E3A2E1D1EE4AC690064379B /* FontCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A2E1C1EE4AC690064379B /* FontCollectionViewCell.swift */; };
+		9E3A2E1F1EE4C17E0064379B /* FontDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A2E1E1EE4C17E0064379B /* FontDetailViewController.swift */; };
+		9E3ECF421EECECF300E31120 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3ECF411EECECF300E31120 /* SideBarTableViewController.swift */; };
+		9E3ECF441EECF13100E31120 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3ECF431EECF13100E31120 /* SideBar.swift */; };
+		9E4126CC1F6A2B280035737C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4126CB1F6A2B280035737C /* HomeViewController.swift */; };
+		9E4126CE1F6B759B0035737C /* ARTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4126CD1F6B759B0035737C /* ARTableViewCell.swift */; };
+		9EADEC231F6954BD0083E51B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EADEC221F6954BD0083E51B /* HomeTableViewCell.swift */; };
+		9EB4E5EA1F74BC0200922076 /* ARTextWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E5E91F74BC0200922076 /* ARTextWebViewController.swift */; };
+		9EB4E5EC1F75384100922076 /* ARMultipleObjectsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E5EB1F75384100922076 /* ARMultipleObjectsWebViewController.swift */; };
+		9EB4E5EE1F753F7400922076 /* ARInteractionWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E5ED1F753F7400922076 /* ARInteractionWebViewController.swift */; };
+		9EB4E5F11F76F06D00922076 /* TableViewHeightForRowAtWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E5F01F76F06D00922076 /* TableViewHeightForRowAtWebViewController.swift */; };
+		9EB4E5F31F76F56100922076 /* TableViewDidSelectRowWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E5F21F76F56100922076 /* TableViewDidSelectRowWebViewController.swift */; };
+		9EB4E5F51F76F84D00922076 /* TableViewEditActionsForRowAtWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E5F41F76F84D00922076 /* TableViewEditActionsForRowAtWebViewController.swift */; };
+		9EB4E5F71F78A24300922076 /* TableViewNumberOfRowsInSectionWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E5F61F78A24300922076 /* TableViewNumberOfRowsInSectionWebViewController.swift */; };
+		9EB4E5F91F78A53B00922076 /* TableViewTitleForHeaderInSectionWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E5F81F78A53B00922076 /* TableViewTitleForHeaderInSectionWebViewController.swift */; };
+		9EB4E5FB1F78A73E00922076 /* TableViewCellForRowAtWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E5FA1F78A73E00922076 /* TableViewCellForRowAtWebViewController.swift */; };
+		9EB4E5FE1F7C7BE300922076 /* AboutARWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E5FD1F7C7BE300922076 /* AboutARWebViewController.swift */; };
+		9EB4E6001F7C7C1300922076 /* AboutTableViewsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E5FF1F7C7C1300922076 /* AboutTableViewsWebViewController.swift */; };
+		9EB4E6031F7D22F200922076 /* AboutSwiftyFontWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E6021F7D22F200922076 /* AboutSwiftyFontWebViewController.swift */; };
+		9ECAA58C1EE4DB4800693E60 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAA58B1EE4DB4800693E60 /* ColorPalette.swift */; };
+		9EE6BB501F567647006FB848 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6BB4F1F567647006FB848 /* HomeTableViewController.swift */; };
+		9EE6BB581F56E9E8006FB848 /* ARHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6BB571F56E9E8006FB848 /* ARHomeTableViewController.swift */; };
+		9EE6BB5A1F56F655006FB848 /* ARBasicObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6BB591F56F655006FB848 /* ARBasicObjectViewController.swift */; };
+		9EE6BB5C1F5900FC006FB848 /* ARTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6BB5B1F5900FC006FB848 /* ARTextViewController.swift */; };
+		9EE6BB5E1F5905A2006FB848 /* ARMultipleObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6BB5D1F5905A2006FB848 /* ARMultipleObjectsViewController.swift */; };
+		9EE6BB611F59D5E5006FB848 /* ARTouchGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6BB601F59D5E5006FB848 /* ARTouchGestureViewController.swift */; };
+		9EE6BB631F59E948006FB848 /* ARPlaneDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6BB621F59E948006FB848 /* ARPlaneDetectionViewController.swift */; };
+		9EE6BB661F5AF197006FB848 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6BB651F5AF197006FB848 /* OverlayPlane.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E3A2E0A1EE499E00064379B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E3A2DED1EE499DF0064379B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E3A2DF41EE499DF0064379B;
+			remoteInfo = SwiftyFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E2F92B01F6DC19400B1AD63 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
+		9E2F92B21F6DC1A200B1AD63 /* DataSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceViewController.swift; sourceTree = "<group>"; };
+		9E2F92B41F6DC97D00B1AD63 /* DataSourceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceTableViewCell.swift; sourceTree = "<group>"; };
+		9E2F92B61F6DD8B300B1AD63 /* DelegateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateTableViewCell.swift; sourceTree = "<group>"; };
+		9E2F92BE1F735E5000B1AD63 /* DescriptionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTextView.swift; sourceTree = "<group>"; };
+		9E2F92C91F736DEF00B1AD63 /* ARBasicWebkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBasicWebkitViewController.swift; sourceTree = "<group>"; };
+		9E3A2DF51EE499DF0064379B /* SwiftyFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3A2DF81EE499DF0064379B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E3A2DFA1EE499DF0064379B /* FontsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsCollectionViewController.swift; sourceTree = "<group>"; };
+		9E3A2DFD1EE499E00064379B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E3A2DFF1EE499E00064379B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E3A2E021EE499E00064379B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E3A2E041EE499E00064379B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3A2E091EE499E00064379B /* SwiftyFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3A2E0D1EE499E00064379B /* SwiftyFontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyFontTests.swift; sourceTree = "<group>"; };
+		9E3A2E0F1EE499E00064379B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3A2E1C1EE4AC690064379B /* FontCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontCollectionViewCell.swift; sourceTree = "<group>"; };
+		9E3A2E1E1EE4C17E0064379B /* FontDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontDetailViewController.swift; sourceTree = "<group>"; };
+		9E3ECF411EECECF300E31120 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		9E3ECF431EECF13100E31120 /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		9E4126CB1F6A2B280035737C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9E4126CD1F6B759B0035737C /* ARTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTableViewCell.swift; sourceTree = "<group>"; };
+		9EADEC221F6954BD0083E51B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		9EB4E5E91F74BC0200922076 /* ARTextWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTextWebViewController.swift; sourceTree = "<group>"; };
+		9EB4E5EB1F75384100922076 /* ARMultipleObjectsWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMultipleObjectsWebViewController.swift; sourceTree = "<group>"; };
+		9EB4E5ED1F753F7400922076 /* ARInteractionWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARInteractionWebViewController.swift; sourceTree = "<group>"; };
+		9EB4E5F01F76F06D00922076 /* TableViewHeightForRowAtWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeightForRowAtWebViewController.swift; sourceTree = "<group>"; };
+		9EB4E5F21F76F56100922076 /* TableViewDidSelectRowWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDidSelectRowWebViewController.swift; sourceTree = "<group>"; };
+		9EB4E5F41F76F84D00922076 /* TableViewEditActionsForRowAtWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewEditActionsForRowAtWebViewController.swift; sourceTree = "<group>"; };
+		9EB4E5F61F78A24300922076 /* TableViewNumberOfRowsInSectionWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewNumberOfRowsInSectionWebViewController.swift; sourceTree = "<group>"; };
+		9EB4E5F81F78A53B00922076 /* TableViewTitleForHeaderInSectionWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTitleForHeaderInSectionWebViewController.swift; sourceTree = "<group>"; };
+		9EB4E5FA1F78A73E00922076 /* TableViewCellForRowAtWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellForRowAtWebViewController.swift; sourceTree = "<group>"; };
+		9EB4E5FD1F7C7BE300922076 /* AboutARWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutARWebViewController.swift; sourceTree = "<group>"; };
+		9EB4E5FF1F7C7C1300922076 /* AboutTableViewsWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewsWebViewController.swift; sourceTree = "<group>"; };
+		9EB4E6021F7D22F200922076 /* AboutSwiftyFontWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSwiftyFontWebViewController.swift; sourceTree = "<group>"; };
+		9ECAA58B1EE4DB4800693E60 /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		9EE6BB4F1F567647006FB848 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		9EE6BB571F56E9E8006FB848 /* ARHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHomeTableViewController.swift; sourceTree = "<group>"; };
+		9EE6BB591F56F655006FB848 /* ARBasicObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBasicObjectViewController.swift; sourceTree = "<group>"; };
+		9EE6BB5B1F5900FC006FB848 /* ARTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTextViewController.swift; sourceTree = "<group>"; };
+		9EE6BB5D1F5905A2006FB848 /* ARMultipleObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMultipleObjectsViewController.swift; sourceTree = "<group>"; };
+		9EE6BB601F59D5E5006FB848 /* ARTouchGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTouchGestureViewController.swift; sourceTree = "<group>"; };
+		9EE6BB621F59E948006FB848 /* ARPlaneDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPlaneDetectionViewController.swift; sourceTree = "<group>"; };
+		9EE6BB651F5AF197006FB848 /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E3A2DF21EE499DF0064379B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E3A2E061EE499E00064379B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E2F92C81F736DBD00B1AD63 /* Web VCs */ = {
+			isa = PBXGroup;
+			children = (
+				9E2F92C91F736DEF00B1AD63 /* ARBasicWebkitViewController.swift */,
+				9EB4E5E91F74BC0200922076 /* ARTextWebViewController.swift */,
+				9EB4E5EB1F75384100922076 /* ARMultipleObjectsWebViewController.swift */,
+				9EB4E5ED1F753F7400922076 /* ARInteractionWebViewController.swift */,
+			);
+			path = "Web VCs";
+			sourceTree = "<group>";
+		};
+		9E3A2DEC1EE499DF0064379B = {
+			isa = PBXGroup;
+			children = (
+				9E3A2DF71EE499DF0064379B /* SwiftyFont */,
+				9E3A2E0C1EE499E00064379B /* SwiftyFontTests */,
+				9E3A2DF61EE499DF0064379B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E3A2DF61EE499DF0064379B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E3A2DF51EE499DF0064379B /* SwiftyFont.app */,
+				9E3A2E091EE499E00064379B /* SwiftyFontTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E3A2DF71EE499DF0064379B /* SwiftyFont */ = {
+			isa = PBXGroup;
+			children = (
+				9EB4E5FC1F7C7BCB00922076 /* About VCs */,
+				9E4126CA1F6A2AEE0035737C /* SwiftyFonts */,
+				9EE6BB561F56E61C006FB848 /* ARKit */,
+				9EE6BB551F56E613006FB848 /* CollectionViews */,
+				9EE6BB541F56E5F3006FB848 /* TableViews */,
+				9EE6BB531F56E5E5006FB848 /* UI */,
+				9E3A2DF81EE499DF0064379B /* AppDelegate.swift */,
+				9E3A2DFC1EE499E00064379B /* Main.storyboard */,
+				9E3A2DFF1EE499E00064379B /* Assets.xcassets */,
+				9E3A2E011EE499E00064379B /* LaunchScreen.storyboard */,
+				9E3A2E041EE499E00064379B /* Info.plist */,
+				9ECAA58B1EE4DB4800693E60 /* ColorPalette.swift */,
+				9E4126CB1F6A2B280035737C /* HomeViewController.swift */,
+			);
+			path = SwiftyFont;
+			sourceTree = "<group>";
+		};
+		9E3A2E0C1EE499E00064379B /* SwiftyFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E3A2E0D1EE499E00064379B /* SwiftyFontTests.swift */,
+				9E3A2E0F1EE499E00064379B /* Info.plist */,
+			);
+			path = SwiftyFontTests;
+			sourceTree = "<group>";
+		};
+		9E4126CA1F6A2AEE0035737C /* SwiftyFonts */ = {
+			isa = PBXGroup;
+			children = (
+				9EB4E6011F7D22E200922076 /* About VC */,
+				9E3A2DFA1EE499DF0064379B /* FontsCollectionViewController.swift */,
+				9E3A2E1C1EE4AC690064379B /* FontCollectionViewCell.swift */,
+				9E3A2E1E1EE4C17E0064379B /* FontDetailViewController.swift */,
+			);
+			path = SwiftyFonts;
+			sourceTree = "<group>";
+		};
+		9EADEC211F6954A50083E51B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9EADEC221F6954BD0083E51B /* HomeTableViewCell.swift */,
+				9E2F92B41F6DC97D00B1AD63 /* DataSourceTableViewCell.swift */,
+				9E2F92B61F6DD8B300B1AD63 /* DelegateTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		9EB4E5EF1F76F03F00922076 /* Web VCs */ = {
+			isa = PBXGroup;
+			children = (
+				9EB4E5F01F76F06D00922076 /* TableViewHeightForRowAtWebViewController.swift */,
+				9EB4E5F21F76F56100922076 /* TableViewDidSelectRowWebViewController.swift */,
+				9EB4E5F41F76F84D00922076 /* TableViewEditActionsForRowAtWebViewController.swift */,
+				9EB4E5F61F78A24300922076 /* TableViewNumberOfRowsInSectionWebViewController.swift */,
+				9EB4E5F81F78A53B00922076 /* TableViewTitleForHeaderInSectionWebViewController.swift */,
+				9EB4E5FA1F78A73E00922076 /* TableViewCellForRowAtWebViewController.swift */,
+			);
+			name = "Web VCs";
+			sourceTree = "<group>";
+		};
+		9EB4E5FC1F7C7BCB00922076 /* About VCs */ = {
+			isa = PBXGroup;
+			children = (
+				9EB4E5FD1F7C7BE300922076 /* AboutARWebViewController.swift */,
+				9EB4E5FF1F7C7C1300922076 /* AboutTableViewsWebViewController.swift */,
+			);
+			path = "About VCs";
+			sourceTree = "<group>";
+		};
+		9EB4E6011F7D22E200922076 /* About VC */ = {
+			isa = PBXGroup;
+			children = (
+				9EB4E6021F7D22F200922076 /* AboutSwiftyFontWebViewController.swift */,
+			);
+			path = "About VC";
+			sourceTree = "<group>";
+		};
+		9EE6BB531F56E5E5006FB848 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9E3ECF411EECECF300E31120 /* SideBarTableViewController.swift */,
+				9E3ECF431EECF13100E31120 /* SideBar.swift */,
+				9E2F92BE1F735E5000B1AD63 /* DescriptionTextView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9EE6BB541F56E5F3006FB848 /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				9EB4E5EF1F76F03F00922076 /* Web VCs */,
+				9EADEC211F6954A50083E51B /* Cells */,
+				9EE6BB4F1F567647006FB848 /* HomeTableViewController.swift */,
+				9E2F92B01F6DC19400B1AD63 /* DelegateViewController.swift */,
+				9E2F92B21F6DC1A200B1AD63 /* DataSourceViewController.swift */,
+			);
+			path = TableViews;
+			sourceTree = "<group>";
+		};
+		9EE6BB551F56E613006FB848 /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		9EE6BB561F56E61C006FB848 /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				9E2F92C81F736DBD00B1AD63 /* Web VCs */,
+				9EE6BB641F5AF13C006FB848 /* Support */,
+				9EE6BB571F56E9E8006FB848 /* ARHomeTableViewController.swift */,
+				9EE6BB591F56F655006FB848 /* ARBasicObjectViewController.swift */,
+				9EE6BB5B1F5900FC006FB848 /* ARTextViewController.swift */,
+				9EE6BB5D1F5905A2006FB848 /* ARMultipleObjectsViewController.swift */,
+				9EE6BB601F59D5E5006FB848 /* ARTouchGestureViewController.swift */,
+				9EE6BB621F59E948006FB848 /* ARPlaneDetectionViewController.swift */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
+		9EE6BB641F5AF13C006FB848 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				9EE6BB651F5AF197006FB848 /* OverlayPlane.swift */,
+				9E4126CD1F6B759B0035737C /* ARTableViewCell.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E3A2DF41EE499DF0064379B /* SwiftyFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E3A2E121EE499E00064379B /* Build configuration list for PBXNativeTarget "SwiftyFont" */;
+			buildPhases = (
+				9E3A2DF11EE499DF0064379B /* Sources */,
+				9E3A2DF21EE499DF0064379B /* Frameworks */,
+				9E3A2DF31EE499DF0064379B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyFont;
+			productName = SwiftyFont;
+			productReference = 9E3A2DF51EE499DF0064379B /* SwiftyFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E3A2E081EE499E00064379B /* SwiftyFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E3A2E151EE499E00064379B /* Build configuration list for PBXNativeTarget "SwiftyFontTests" */;
+			buildPhases = (
+				9E3A2E051EE499E00064379B /* Sources */,
+				9E3A2E061EE499E00064379B /* Frameworks */,
+				9E3A2E071EE499E00064379B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E3A2E0B1EE499E00064379B /* PBXTargetDependency */,
+			);
+			name = SwiftyFontTests;
+			productName = SwiftyFontTests;
+			productReference = 9E3A2E091EE499E00064379B /* SwiftyFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E3A2DED1EE499DF0064379B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Wift, LLC";
+				TargetAttributes = {
+					9E3A2DF41EE499DF0064379B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KW2P774F2H;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					9E3A2E081EE499E00064379B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7FU4SEGN53;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9E3A2DF41EE499DF0064379B;
+					};
+				};
+			};
+			buildConfigurationList = 9E3A2DF01EE499DF0064379B /* Build configuration list for PBXProject "SwiftyDocs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E3A2DEC1EE499DF0064379B;
+			productRefGroup = 9E3A2DF61EE499DF0064379B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E3A2DF41EE499DF0064379B /* SwiftyFont */,
+				9E3A2E081EE499E00064379B /* SwiftyFontTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E3A2DF31EE499DF0064379B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3A2E031EE499E00064379B /* LaunchScreen.storyboard in Resources */,
+				9E3A2E001EE499E00064379B /* Assets.xcassets in Resources */,
+				9E3A2DFE1EE499E00064379B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E3A2E071EE499E00064379B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E3A2DF11EE499DF0064379B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB4E5FB1F78A73E00922076 /* TableViewCellForRowAtWebViewController.swift in Sources */,
+				9E4126CE1F6B759B0035737C /* ARTableViewCell.swift in Sources */,
+				9E2F92B11F6DC19400B1AD63 /* DelegateViewController.swift in Sources */,
+				9EB4E5F31F76F56100922076 /* TableViewDidSelectRowWebViewController.swift in Sources */,
+				9E3ECF421EECECF300E31120 /* SideBarTableViewController.swift in Sources */,
+				9EE6BB611F59D5E5006FB848 /* ARTouchGestureViewController.swift in Sources */,
+				9EB4E5F51F76F84D00922076 /* TableViewEditActionsForRowAtWebViewController.swift in Sources */,
+				9EB4E5EE1F753F7400922076 /* ARInteractionWebViewController.swift in Sources */,
+				9E3ECF441EECF13100E31120 /* SideBar.swift in Sources */,
+				9E2F92CA1F736DEF00B1AD63 /* ARBasicWebkitViewController.swift in Sources */,
+				9E4126CC1F6A2B280035737C /* HomeViewController.swift in Sources */,
+				9E2F92B71F6DD8B300B1AD63 /* DelegateTableViewCell.swift in Sources */,
+				9EB4E5F71F78A24300922076 /* TableViewNumberOfRowsInSectionWebViewController.swift in Sources */,
+				9E3A2DFB1EE499DF0064379B /* FontsCollectionViewController.swift in Sources */,
+				9EB4E6031F7D22F200922076 /* AboutSwiftyFontWebViewController.swift in Sources */,
+				9E2F92B31F6DC1A200B1AD63 /* DataSourceViewController.swift in Sources */,
+				9EE6BB661F5AF197006FB848 /* OverlayPlane.swift in Sources */,
+				9E3A2DF91EE499DF0064379B /* AppDelegate.swift in Sources */,
+				9EB4E5F91F78A53B00922076 /* TableViewTitleForHeaderInSectionWebViewController.swift in Sources */,
+				9EB4E5FE1F7C7BE300922076 /* AboutARWebViewController.swift in Sources */,
+				9EE6BB5E1F5905A2006FB848 /* ARMultipleObjectsViewController.swift in Sources */,
+				9EB4E5EC1F75384100922076 /* ARMultipleObjectsWebViewController.swift in Sources */,
+				9E2F92BF1F735E5000B1AD63 /* DescriptionTextView.swift in Sources */,
+				9EE6BB631F59E948006FB848 /* ARPlaneDetectionViewController.swift in Sources */,
+				9EE6BB581F56E9E8006FB848 /* ARHomeTableViewController.swift in Sources */,
+				9E3A2E1F1EE4C17E0064379B /* FontDetailViewController.swift in Sources */,
+				9EB4E6001F7C7C1300922076 /* AboutTableViewsWebViewController.swift in Sources */,
+				9EE6BB5C1F5900FC006FB848 /* ARTextViewController.swift in Sources */,
+				9E3A2E1D1EE4AC690064379B /* FontCollectionViewCell.swift in Sources */,
+				9EE6BB501F567647006FB848 /* HomeTableViewController.swift in Sources */,
+				9EB4E5F11F76F06D00922076 /* TableViewHeightForRowAtWebViewController.swift in Sources */,
+				9ECAA58C1EE4DB4800693E60 /* ColorPalette.swift in Sources */,
+				9EADEC231F6954BD0083E51B /* HomeTableViewCell.swift in Sources */,
+				9E2F92B51F6DC97D00B1AD63 /* DataSourceTableViewCell.swift in Sources */,
+				9EB4E5EA1F74BC0200922076 /* ARTextWebViewController.swift in Sources */,
+				9EE6BB5A1F56F655006FB848 /* ARBasicObjectViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E3A2E051EE499E00064379B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3A2E0E1EE499E00064379B /* SwiftyFontTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E3A2E0B1EE499E00064379B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E3A2DF41EE499DF0064379B /* SwiftyFont */;
+			targetProxy = 9E3A2E0A1EE499E00064379B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E3A2DFC1EE499E00064379B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E3A2DFD1EE499E00064379B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E3A2E011EE499E00064379B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E3A2E021EE499E00064379B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E3A2E101EE499E00064379B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E3A2E111EE499E00064379B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E3A2E131EE499E00064379B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KW2P774F2H;
+				INFOPLIST_FILE = SwiftyFont/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhatter.SwiftyDocs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E3A2E141EE499E00064379B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KW2P774F2H;
+				INFOPLIST_FILE = SwiftyFont/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhatter.SwiftyDocs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E3A2E161EE499E00064379B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7FU4SEGN53;
+				INFOPLIST_FILE = SwiftyFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiftapp.SwiftyFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyFont.app/SwiftyFont";
+			};
+			name = Debug;
+		};
+		9E3A2E171EE499E00064379B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7FU4SEGN53;
+				INFOPLIST_FILE = SwiftyFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiftapp.SwiftyFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyFont.app/SwiftyFont";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E3A2DF01EE499DF0064379B /* Build configuration list for PBXProject "SwiftyDocs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E3A2E101EE499E00064379B /* Debug */,
+				9E3A2E111EE499E00064379B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E3A2E121EE499E00064379B /* Build configuration list for PBXNativeTarget "SwiftyFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E3A2E131EE499E00064379B /* Debug */,
+				9E3A2E141EE499E00064379B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E3A2E151EE499E00064379B /* Build configuration list for PBXNativeTarget "SwiftyFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E3A2E161EE499E00064379B /* Debug */,
+				9E3A2E171EE499E00064379B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E3A2DED1EE499DF0064379B /* Project object */;
+}

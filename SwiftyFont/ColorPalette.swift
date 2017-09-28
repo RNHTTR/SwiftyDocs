@@ -35,34 +35,34 @@ class ColorPalette {
     
     struct Bold {
         static let black  = UIColor.black
-        static let color2 = UIColor(hex: 0x34495e) // Indigo
-        static let color3 = UIColor(hex: 0x6a1b9a) // Purple
-        static let color4 = UIColor(hex: 0x0277bd) // Blue
-        static let color5 = UIColor(hex: 0xc62828) // Red
-        static let color6 = UIColor(hex: 0x2e7d32) // Green
-        static let color7 = UIColor(hex: 0xff8f00) // Yellow  0xf9a825
+        static let indigo = UIColor(hex: 0x34495e) // Indigo
+        static let purple = UIColor(hex: 0x6a1b9a) // Purple
+        static let blue   = UIColor(hex: 0x0277bd) // Blue
+        static let red    = UIColor(hex: 0xc62828) // Red
+        static let green  = UIColor(hex: 0x2e7d32) // Green
+        static let yellow = UIColor(hex: 0xff8f00) // Yellow  0xf9a825
         static let white  = UIColor.white
     }
     
     struct Bright {
         static let black  = UIColor.black
-        static let color2 = UIColor(hex: 0x283593) // Indigo
-        static let color3 = UIColor(hex: 0x9b59b6) // Purple
-        static let color4 = UIColor(hex: 0x3498db) // Blue
-        static let color5 = UIColor(hex: 0xe74c3c) // Red
-        static let color6 = UIColor(hex: 0x2ecc71) // Green
-        static let color7 = UIColor(hex: 0xf1c40f) // Yellow
+        static let indigo = UIColor(hex: 0x283593) // Indigo
+        static let purple = UIColor(hex: 0x9b59b6) // Purple
+        static let blue   = UIColor(hex: 0x3498db) // Blue
+        static let red    = UIColor(hex: 0xe74c3c) // Red
+        static let green  = UIColor(hex: 0x2ecc71) // Green
+        static let yellow = UIColor(hex: 0xf1c40f) // Yellow
         static let white  = UIColor.white
     }
     
     struct Light {
         static let black  = UIColor.black
-        static let color2 = UIColor(hex: 0x9fa8da) // Indigo
-        static let color3 = UIColor(hex: 0xce93d8) // Purple
-        static let color4 = UIColor(hex: 0x81d4fa) // Blue
-        static let color5 = UIColor(hex: 0xef9a9a) // Red
-        static let color6 = UIColor(hex: 0xa5d6a7) // Green
-        static let color7 = UIColor(hex: 0xfff59d) // Yellow
+        static let indigo = UIColor(hex: 0x9fa8da) // Indigo
+        static let purple = UIColor(hex: 0xce93d8) // Purple
+        static let blue   = UIColor(hex: 0x81d4fa) // Blue
+        static let red    = UIColor(hex: 0xef9a9a) // Red
+        static let green  = UIColor(hex: 0xa5d6a7) // Green
+        static let yellow = UIColor(hex: 0xfff59d) // Yellow
         static let white  = UIColor.white
     }
     
@@ -77,23 +77,21 @@ class Gradient: ColorPalette {
     
     override init() {
         self.boldGradientLayer = CAGradientLayer()
-        self.boldGradientLayer.colors = [Bold.color2, Bold.color7]
+        self.boldGradientLayer.colors = [Bold.indigo, Bold.yellow]
         self.boldGradientLayer.locations = [0.0, 1.0]
         
         self.brightGradientLayer = CAGradientLayer()
-        self.brightGradientLayer.colors = [Bright.color2, Bright.color7]
+        self.brightGradientLayer.colors = [Bright.indigo, Bright.yellow]
         self.brightGradientLayer.locations = [0.0, 1.0]
         
         self.lightGradientLayer = CAGradientLayer()
-        self.lightGradientLayer.colors = [Light.color2, Light.color7]
+        self.lightGradientLayer.colors = [Light.indigo, Light.yellow]
         self.lightGradientLayer.locations = [0.0, 1.0]
         
         self.grayScaleGradientLayer = CAGradientLayer()
         self.grayScaleGradientLayer.colors = [GrayScale.color2, GrayScale.color7]
         self.grayScaleGradientLayer.locations = [0.0, 1.0]
     }
-    
-    
     
 }
 
